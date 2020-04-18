@@ -1,0 +1,171 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	background-color: #ff0060;
+	box-sizing: border-box;
+	display: block;
+	font-size: 10px;
+	font-family: 'Lato','Helvetica','Arial',sans-serif;
+	text-rendering: optimizeLegibility;
+	font-size: 16px;
+	line-height: 1.58;
+	color: #555;
+}
+
+main {
+	position: relative;
+	z-index: 1;
+}
+
+
+header {
+	padding: 60px 0 40px;
+	display: block;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.white-text-container h1 {
+	color: #fff;
+	font-family: 'Oswald','Helvetica','Arial',sans-serif
+	font-weight: 400;
+	line-height: 1.1;
+	margin: .67em 0;
+	font-size: 63px;
+	margin-top: 25px;
+	margin-bottom: 12.5px;
+}
+
+.text-center p {
+	color: #fff;
+	margin: 0 0 12.5px;
+}
+
+.container {
+	width: 1170px;
+	margin-right: auto;
+	margin-left: auto;
+	padding-left: 15px;
+	padding-right: 15px;
+	min-width: 900px;	
+	max-width: 1200;
+}
+
+.card {
+	border-radius: 0.25rem;
+	background-color: #fff;
+	border: 1px solid rgba(0,0,0,.125);
+	margin-bottom: 3rem;
+	visibility: visible;
+	display: flex;
+	flex-direction: column;
+}
+
+.card-block {
+	padding: 6rem;	
+}
+
+.card h2 {
+	margin-top: 0;
+	margin-bottom: 40px;
+}
+
+h2 {
+	font-size: 27px;
+	font-family: 'Oswald','Helvetica','Arial',sans-serif;
+	font-weight: 400;
+	line-height: 1.1;
+	color: #000;
+}
+
+.col-md-4 {
+	width: 33.33%;
+	float: left;
+	position: relative;
+	min-height: 1px;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+img {
+	vertical-align: middle;
+	border: 0;
+}
+
+.card .card-block .col-md-4 .img-responsive {
+	background-color: #fff;
+	display: block;
+	width: 100%;
+	height: auto;
+}
+
+.col-md-8 {
+	width: 66.66667%;
+	/*min-width: 992px;*/
+	position: relative;
+	min-height: 1px;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.col-md-3 {
+	width: 25%;
+	float: left;
+	position: relative;
+	min-height: 1px;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+form {
+	display: block;
+	margin-top: 0em;
+}
+
+.form-group {
+	margin-bottom: 15px;
+}
+
+.form-control {
+	box-shadow: none;
+	width: 100%;
+	height: 43px;
+	padding: 8px 16px;
+	background-color: #eee;
+	border: 1px solid transparent;
+	border-radius: 4px;
+	font-size: 16px;
+	line-height: 1.58;
+	color: #555;
+}
+
+textarea.form-control {
+	height: auto;
+}	
+
+.btn {
+	margin-bottom: 0;
+	font-weight: 400;
+	cursor: pointer;
+	padding: 8px 16px;
+	border-radius: 50px;
+	font-size: 16px;
+	line-height: 1.43;	
+	border: none;
+	transition: all .1s linear;
+}
+
+.btn-primary {
+	background-size: 200% auto;
+	color: #fff;
+	background-color: #ff0060;
+}
+
+.btn:hover {
+	background-color: #ff5075;
+}
