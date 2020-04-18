@@ -169,3 +169,9 @@ textarea.form-control {
 .btn:hover {
 	background-color: #ff5075;
 }
+
+a {
+	text-decoration: none;
+	color: black;
+	
+}
